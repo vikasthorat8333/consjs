@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>replit</title>
+</head>
+<body>
+    <h2>java script const</h2>
+    <p>declearing a constant array does NOT make the element unchangable :</p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        const fruits = ["apple", "banana", "orange"];
+        document.getElementById("demo1").innerHTML = fruits;
+        //chage an element//
+        fruits[0] = "apricot";
+        //add an element//
+        fruits.push("mango");
+        document.getElementById("demo1").innerHTML = fruits;
+
+        const cells = ["Iphone", "redmi", "oppo"];
+        document.getElementById("demo3").innerHTML = cells;
+
+        cells [1] = "Oneplus";
+        cells.push( "Motto");
+        document.getElementById("demo3").innerHTML = cells;
+
+
+
+    </script>
+</body>
+</html>
